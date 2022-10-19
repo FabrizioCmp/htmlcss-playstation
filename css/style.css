@@ -1,0 +1,47 @@
+:root{
+    --color1: black;
+}
+
+.bkg_1{
+    background-color: var(--color1);
+}
+
+.sony_icon{
+    width: 50px;
+    padding: .5rem 0;
+    margin-right: 1rem;
+}
+
+.pstation_logo{
+    width: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav_left ul{
+    list-style: none;
+    column-gap: .5rem;
+    padding-left: .5rem;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.nav_right ul{
+    list-style: none;
+    column-gap: .5rem;
+    padding-left: .5rem;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.lens_icon{
+    width: 20px;
+}
+
+.Hmenu{
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: .4rem;
+    margin-right: .5rem;
+}
