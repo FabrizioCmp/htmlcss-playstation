@@ -82,3 +82,14 @@ h5{
 .border-bot-blue{
     border-bottom: 2px solid blue;
 }
+
+.bkg-section3{
+    background-image: url(../imgs/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.takes2_logo{
+    width: 60%;
+}
