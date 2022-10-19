@@ -1,11 +1,16 @@
 :root{
     --color1: black;
+    --color2: rgb(73, 73, 73);
 }
 
 
 
 .bkg_1{
     background-color: var(--color1);
+}
+
+.bkg_2{
+    background-color: var(--color2);
 }
 
 
@@ -93,3 +98,4 @@ h5{
 .takes2_logo{
     width: 60%;
 }
+
