@@ -1,6 +1,7 @@
 :root{
     --color1: black;
     --color2: rgb(73, 73, 73);
+    --color3: gray;
 }
 
 
@@ -11,6 +12,10 @@
 
 .bkg_2{
     background-color: var(--color2);
+}
+
+.bkg_3{
+    background-color: var(--color3) ;
 }
 
 
