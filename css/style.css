@@ -2,6 +2,8 @@
     --color1: black;
 }
 
+
+
 .bkg_1{
     background-color: var(--color1);
 }
@@ -65,4 +67,18 @@
 .my-card{
     border-radius: 9px;
     
+}
+h5{
+    font-size: small;
+}
+
+.btn_information{
+    padding: 2px 5px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+.border-bot-blue{
+    border-bottom: 2px solid blue;
 }
