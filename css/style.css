@@ -33,6 +33,17 @@
     background-color: var(--color4);
 }
 
+.arrow-menu{
+    fill: gray;
+    width: 10px;
+}
+
+.link_menu{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 .5rem;
+}
 
 .sony_icon{
     width: 50px;
@@ -155,7 +166,13 @@ h5{
 }
 
 
+
 /***** HOVER EFFECTS  *****/
+
+
+.link_menu:hover svg{
+    fill: rgb(7, 56, 252);
+}
 
 .my-card:hover.border_jumbo_card_gray{
     border-color: rgb(143, 140, 140);
