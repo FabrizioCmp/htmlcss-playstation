@@ -47,6 +47,15 @@
 
 }
 
+.border_jumbo_card{
+    border: 2px solid rgb(73, 131, 211);
+    padding: 2px;
+}   
+.border_jumbo_card_gray{
+   border: 2px solid transparent;
+    padding: 2px;
+}   
+
 .sie_logo{
     width: 110px;
     margin-top: 1.5rem;
@@ -105,7 +114,7 @@
 }
 
 .my-card{
-    border-radius: 9px;
+    border-radius: 15px;
     
 }
 h5{
@@ -143,4 +152,11 @@ h5{
 .link_footer{
     text-decoration: none;
     color: white;
+}
+
+
+/***** HOVER EFFECTS  *****/
+
+.my-card:hover.border_jumbo_card_gray{
+    border-color: rgb(143, 140, 140);
 }
