@@ -5,6 +5,16 @@
     --color4: blue;
 }
 
+*{
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.f_size{
+    font-size: 1rem;
+}
+.f_size_s{
+    font-size: .7rem;
+}
 
 
 .bkg_1{
@@ -38,7 +48,9 @@
 }
 
 .sie_logo{
-    width: 15%;
+    width: 110px;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
 }
 
 .nav_left ul{
@@ -62,7 +74,7 @@
 }
 
 .language_icon{
-    width: 10px;
+    width: 17px;
     display: inline-block;
 }
 
@@ -120,6 +132,7 @@ h5{
 
 .takes2_logo{
     width: 60%;
+    margin-top: ;
 }
 
 .my_ul{
