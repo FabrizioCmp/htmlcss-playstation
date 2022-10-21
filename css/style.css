@@ -2,7 +2,7 @@
     --color1: black;
     --color2: rgb(73, 73, 73);
     --color3: gray;
-    --color4: blue;
+    --color4: #00439C;
 }
 
 *{
@@ -59,12 +59,12 @@
 }
 
 .border_jumbo_card{
-    border: 2px solid rgb(73, 131, 211);
-    padding: 2px;
+    border: 3px solid rgb(73, 131, 211);
+    padding: 3px;
 }   
 .border_jumbo_card_gray{
-   border: 2px solid transparent;
-    padding: 2px;
+   border: 3px solid transparent;
+    padding: 3px;
 }   
 
 .sie_logo{
@@ -113,7 +113,7 @@
 }
 
 .p_jumbo{
-    padding-top: 200px;
+    padding-top: 350px;
 }
 
 .w_60{
@@ -126,18 +126,13 @@
 
 .my-card{
     border-radius: 15px;
-    
+    position: relative;
+    transition: all .5s;
 }
 h5{
     font-size: small;
 }
 
-.btn_information{
-    padding: 2px 5px;
-    text-decoration: none;
-    background-color: blue;
-    color: white;
-}
 
 .border-bot-blue{
     border-bottom: 2px solid blue;
@@ -165,11 +160,45 @@ h5{
     color: white;
 }
 
+.border_hover{
+    border-bottom: 2px solid transparent;
+}
 
 
-/***** HOVER EFFECTS  *****/
+
+/****  BUTTONS  ****/
+button[class^="btn_"]{
+    border-radius: 30px;
+    padding: .3rem 1rem;
+}
+
+.btn_login{ 
+    background-color: #363636;
+    color: white;
+}
+
+.btn_blue{
+    background-color: #2D64E6;
+    color: white;
+    border-color: #2D64E6;
+}
+
+.btn_orange{
+    background-color: #CD3D0F;
+    color: white;
+    border-color: #CD3D0F;
+}
+
+.btn_plus{
+    background-color: #CBD0DC;
+    color: #2D64E6;
+    font-weight: bold;
+    border-color: #CBD0DC;
+}
 
 
+
+/*****  HOVER EFFECTS  *****/
 .link_menu:hover svg{
     fill: rgb(7, 56, 252);
 }
@@ -177,3 +206,14 @@ h5{
 .my-card:hover.border_jumbo_card_gray{
     border-color: rgb(143, 140, 140);
 }
+
+.my-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 18px #888888;
+}
+
+.border_hover:hover{
+    border-color: gray;
+}
+
+
