@@ -127,7 +127,7 @@
 .my-card{
     border-radius: 15px;
     position: relative;
-    transition: all .5s;
+    transition: all .3s;
 }
 h5{
     font-size: small;
@@ -217,7 +217,7 @@ button[class^="btn_"]{
 }
 
 .social_hover:hover{
-    transition: all .4s;
+    transition: all .3s;
     transform: translateY(-10px);
     box-shadow: 0px 10px 18px #888888;
 }
